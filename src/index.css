@@ -1,0 +1,66 @@
+body{
+  background-color: gray;
+}
+.to-do-list{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
+h2{
+  font-style: oblique;
+  font-size: 6rem;
+}
+button{
+  font-size: 35px;
+font-weight: bold;
+padding: 10px 15px;
+/* border: none; */
+color:black;
+cursor: pointer;
+border-radius: 3px;
+transition: background-color 0.5s ease;
+}
+.Add-button{
+  background-color: rgb(25, 214, 25);
+  color: white;
+}
+.Add-button:hover{
+  background-color: rgba(2, 45, 2, 0.886);
+}
+.delete-button {
+background-color: rgba(185, 4, 4, 0.902);
+color:darkgrey;
+/* width: auto; */
+}
+.move-button{
+background-color:lightskyblue;
+}
+input[type="text"]{
+  font-size: 35px;
+  padding: 10px;
+  border: 2px solid black;
+}
+ol{
+  padding: 0;
+}
+li{
+font-size: 3rem;
+font-family: cursive;
+background-color: cornsilk;
+margin-bottom: 10px;
+border: 1px solid #0000;
+
+
+}
+.text{
+  flex: 1;
+}
+.delete-button,.move-button{
+  padding: 5px;
+  font-size: 2.5rem;
+  margin-left: 5px;
+  /* padding: 10px 15px; */
+
+
+
+}
